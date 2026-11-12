@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "GymmApp",
+    "slug": "GymmApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#151619",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/background.png",
+        "backgroundImage": "./assets/background.png",
+        "monochromeImage": "./assets/background.png"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
